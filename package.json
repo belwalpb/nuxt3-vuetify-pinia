@@ -1,0 +1,24 @@
+{
+  "name": "nuxt3-vuetify-pinia",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "start": "node .output/server/index.mjs",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "format": "prettier --write \"./**/*.{vue,html,tsx,ts,js,json,md}\""
+  },
+  "dependencies": {
+    "@pinia/nuxt": ">=0.4.3",
+    "sass": "^1.55.0",
+    "vuetify": "^3.0.0-beta.13",
+    "pinia": ">=2.0.23"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.11",
+    "prettier": "^2.7.1"
+  }
+}
